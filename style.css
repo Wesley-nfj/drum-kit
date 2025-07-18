@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: rgb(171, 64, 64);
+  padding: 40px;
+}
+header{
+    font-style: italic;
+    margin-bottom: 30px;
+    font-weight: 300px;
+    font-size:xx-large;
+}
+
+
+.drum-kit {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  shape-image-threshold: inherit;
+}
+
+.drum {
+  font-size: 24px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  background: grey;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.drum:active,
+.drum.playing {
+  transform: scale(1.1);
+  background: rgb(69, 129, 220);
+}
