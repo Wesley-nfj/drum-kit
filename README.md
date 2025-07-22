@@ -49,5 +49,8 @@ git clone https://github.com/your-username/repository-name.git
 ### 4. Run the program
 ---
 
+### 📢 Credits
+Drum sounds from FreeCodeCamp Drum Machine Project
+---
 ## 📜 License
 This project is licensed under the MIT License.
